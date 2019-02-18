@@ -1,8 +1,8 @@
 ## GeoQuery Original Data
 
-Source information from the website for [GeoQuery](http://www.cs.utexas.edu/users/ml/geo.html), [Source B](http://www.cs.utexas.edu/~ml/nldata/geoquery.html)
+Source information from the website for [GeoQuery](http://www.cs.utexas.edu/users/ml/geo.html), [Source B](http://www.cs.utexas.edu/~ml/nldata/geoquery.html).
 
-[MADE AVAILABLE UNDER GPL 2.0 LICENCE](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[Made available under the GPL2.0 Licence](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). This is not my code or data, but since the original page is no longer managed I've made an attempt to create this mirror resource. PRs with fixes/updates welcome.
 
 Contains:
 * GeoBase - the KB the questions are based on
