@@ -1,16 +1,17 @@
-## GeoQuery Original Data
+# GeoQuery Original Data
 
 Source information from the website for [GeoQuery](http://www.cs.utexas.edu/users/ml/geo.html), [Source B](http://www.cs.utexas.edu/~ml/nldata/geoquery.html).
 
-[Made available under the GPL2.0 Licence](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). This is not my code or data, but since the original page is no longer managed I've made an attempt to create this mirror resource. PRs with fixes/updates welcome.
+[Made available under the GPL2.0 Licence](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) and all Copyright material is owned by UT Austin and not myself. This is not my code or data, but since the original page is no longer managed I've made an attempt to create this mirror resource. PRs with fixes/updates welcome. 
 
 Contains:
+
 * GeoBase - the KB the questions are based on
 * GeoQuery880 - the most common form of the dataset (EN)
 * GeoQuery250 - subset of the data (EN)
 * GeoQuery - executable programme for logical forms to denotations (defines a Prolog function)
 
-Papers:
+### Papers:
 * [Learning to parse database queries using inductive logic programming. Zelle & Mooney 1996](https://www.cs.utexas.edu/~ml/papers/chill-aaai-96.pdf)
 ```
 @inproceedings{Zelle:1996:LPD:1864519.1864543,
@@ -29,7 +30,17 @@ Papers:
 } 
 ```
 
-Other notes:
+### Dataset statistics
+
+** Maximum sequence size by tokens **
+
+|       | NL | LF |
+|-------|----|----|
+| Train | 18 | 67 |
+| Test  | 22 | 96 |
+
+
+### Other notes:
 * A survey on [Semantic Parsing on OpenReview for AKBC 2019](https://openreview.net/forum?id=HylaEWcTT7).
 * [Learning for Semantic Parsing - Mooney 2007](https://link.springer.com/content/pdf/10.1007%2F978-3-540-70939-8.pdf).
 * GeoQuery grammar used in Overnight for Lambda-DCS [here](https://worksheets.codalab.org/rest/bundles/0x40d0664a7a3c4afc853e0509e546c6c4/contents/blob/geo880.grammar).
