@@ -10,6 +10,7 @@ Contains:
 * GeoQuery880 - the most common form of the dataset (EN)
 * GeoQuery250 - subset of the data (EN)
 * GeoQuery - executable programme for logical forms to denotations (defines a Prolog function)
+* eval.pl - Script for querying the KB using FUNQL logical forms.
 
 ### Papers:
 * [Learning to parse database queries using inductive logic programming. Zelle & Mooney 1996](https://www.cs.utexas.edu/~ml/papers/chill-aaai-96.pdf)
@@ -41,7 +42,8 @@ Contains:
 
 
 ### Other notes:
-* A survey on [Semantic Parsing on OpenReview for AKBC 2019](https://openreview.net/forum?id=HylaEWcTT7).
+* Another collection fo Geoquery resources available on GitHub at [pks/rebol](https://github.com/pks/rebol/tree/master/data/geoquery)
+* A survey on [Semantic Parsing from AKBC 2019](https://openreview.net/forum?id=HylaEWcTT7).
 * [Learning for Semantic Parsing - Mooney 2007](https://link.springer.com/content/pdf/10.1007%2F978-3-540-70939-8.pdf).
 * GeoQuery grammar used in Overnight for Lambda-DCS [here](https://worksheets.codalab.org/rest/bundles/0x40d0664a7a3c4afc853e0509e546c6c4/contents/blob/geo880.grammar).
 * Instructions for installing Prolog [here](https://wwu-pi.github.io/tutorials/lectures/lsp/010_install_swi_prolog.html).

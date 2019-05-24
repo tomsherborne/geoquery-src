@@ -9,20 +9,30 @@ queries for Geoquery Data </span><span style="font-family: monospace;"><br>
 <br>
 </span>
 <ol>
-  <li>Load up Sicstus Prolog(tm).</li>
+  <li>Load up Sicstus Prolog(tm) with the <span style="font-family: monospace;">swipl</span> in the terminal.</li>
   <br>
   <li>Prove <span style="font-family: monospace;">compile('geoquery').</span>
     <span style="font-family: monospace;"></span></li>
   <span style="font-family: monospace;"></span><br>
-  <li>To try executing an actual query, try to prove this
-predicate:</li>
+  <li>To try executing an actual query, try to prove this predicate:</li>
 </ol>
 <div style="margin-left: 40px;"><span style="font-family: monospace;">execute_query(&lt;Query&gt;,
 Ans).</span><br>
 where &lt;Query&gt; is a parsed query in logical form (you can grab an
-example from "geoqueries880") and the set of answers is returned inAns.
+example from "geoqueries880") and the set of answers is returned in Ans.
 <br>
 </div>
+<span style="font-family: times new roman;"><br>
+</span>
+<span style="font-weight: bold;">Querying the KB using Prolog or FUNQL </span><span style="font-family: monospace;"><br>
+<br>
+</span>
+<ol>
+  <li> <strong>FUNQL: </strong>Run <span style="font-family: monospace;">echo "execute_funql_query($QUERY, X)." | swipl -s eval.pl 2>&1 | grep "X = " </span>
+  <li> <strong>PROLOG: </strong>Run <span style="font-family: monospace;">echo "execute_query($QUERY, X)." | swipl -s geo_long.pl 2>&1 | grep "X = "
+ </span>
+</ol>
+
 <span style="font-family: times new roman;"><br>
 </span>
 <hr style="width: 100%; height: 2px;">
