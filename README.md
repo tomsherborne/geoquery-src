@@ -1,15 +1,17 @@
 # GeoQuery Original Data
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+
 Source information from the website for [GeoQuery](http://www.cs.utexas.edu/users/ml/geo.html), [Source B](http://www.cs.utexas.edu/~ml/nldata/geoquery.html).
 
-[Made available under the GPL2.0 Licence](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) and all Copyright material is owned by UT Austin and not myself. This is not my code or data, but since the original page is no longer managed I've made an attempt to create this mirror resource. PRs with fixes/updates welcome. 
+[Made available under the GPL2.0 Licence](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) and all respective Copyright material is owned by University of Texas. I do not make a claim of ownership to any material contained within this repository. This is not my code or data, but since the original page is no longer maintained I have created this mirror resource. If you spot a mistake or submit a PR then fixes are welcome or you can [email me](mailto:tom.sherborne@ed.ac.uk).
 
 Contains:
 
-* GeoBase - the KB the questions are based on
-* GeoQuery880 - the most common form of the dataset (EN)
-* GeoQuery250 - subset of the data (EN)
-* GeoQuery - executable programme for logical forms to denotations (defines a Prolog function)
+* GeoBase - the Knowledge Base the questions are based on
+* GeoQuery880 - Most common form of the dataset (EN)
+* GeoQuery250 - Subset of the data (EN)
+* GeoQuery - Executable programme for logical forms to denotations (defines a Prolog function)
 * eval.pl - Script for querying the KB using FUNQL logical forms.
 
 ### Papers:
@@ -31,18 +33,9 @@ Contains:
 } 
 ```
 
-### Dataset statistics
 
-** Maximum sequence size by tokens **
-
-|       | NL | LF |
-|-------|----|----|
-| Train | 18 | 67 |
-| Test  | 22 | 96 |
-
-
-### Other notes:
-* Another collection fo Geoquery resources available on GitHub at [pks/rebol](https://github.com/pks/rebol/tree/master/data/geoquery)
+### Other links (correct as of January 2023):
+* Another collection fo Geoquery resources available on GitHub at [pks/rebol](https://github.com/pks/rebol/tree/master/data/geoquery). __Note__: this repository has been archived in 12/2022 and many maintenance cannot be expected going forward.
 * A survey on [Semantic Parsing from AKBC 2019](https://openreview.net/forum?id=HylaEWcTT7).
 * [Learning for Semantic Parsing - Mooney 2007](https://link.springer.com/content/pdf/10.1007%2F978-3-540-70939-8.pdf).
 * GeoQuery grammar used in Overnight for Lambda-DCS [here](https://worksheets.codalab.org/rest/bundles/0x40d0664a7a3c4afc853e0509e546c6c4/contents/blob/geo880.grammar).
